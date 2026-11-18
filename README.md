@@ -62,7 +62,6 @@ src/budget_analysis.py    T1 -> budgeted recall curves and cost accounting
 src/transfer.py           cross-dataset zero-shot transfer
 src/ablation_stats.py     pairwise feature-family tests (bootstrap CI + Wilcoxon)
 src/figures.py            report figures
-src/report_build.py       builds the Word report from results/*.csv
 src/run_all.py            runs every analysis for every table on disk
 ```
 
@@ -79,7 +78,6 @@ python3 src/ablation_stats.py         # feature-family paired tests
 python3 src/integration.py CollegeMsg 3   # calibrated sum-of-probabilities
 python3 src/transfer.py               # zero-shot transfer (k=3)
 python3 src/figures.py
-python3 src/report_build.py           # Word report
 ```
 
 `build_tables.py <dataset> <k>` accepts `CollegeMsg`, `email-Eu-core-temporal`,
