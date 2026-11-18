@@ -1,0 +1,5 @@
+data/*.gz
+results/tables/
+results/*.pkl
+__pycache__/
+*.pyc
